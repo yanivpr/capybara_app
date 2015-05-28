@@ -95,7 +95,7 @@ Capybara.configure do |config|
   # config.default_driver = :poltergeist
   config.current_driver = :selenium_chrome
   # config.app = "fake app name"
-  # config.app_host = 'http://localhost:3000/'
+  config.app_host = 'localhost:3000'
 end
 
 # Capybara.register_driver :poltergeist do |app|
